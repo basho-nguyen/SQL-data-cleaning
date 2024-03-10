@@ -33,7 +33,6 @@ Result below
 	);
 
 ### Copy all values from original table
-SQL code
 
     INSERT INTO club_member_info_cleaned 
     select * FROM club_member_info ;
