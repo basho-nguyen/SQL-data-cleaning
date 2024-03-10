@@ -1,10 +1,10 @@
 # SQL-Data-Cleaning-Project
 ## Overview about Club-member data
-SQL code
+Show 1st 10 column data
 
     SELECT * FROM club_member_info cmi limit 10;
 
-Show result below
+Result below
 |full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
 |---------|---|--------------|-----|-----|------------|---------|---------------|
 |addie lush|40|married|alush0@shutterfly.com|254-389-8708|3226 Eastlawn Pass,Temple,Texas|Assistant Professor|7/31/2013|
@@ -19,8 +19,7 @@ Show result below
 | fey kloss|52|married|fkloss9@godaddy.com|808-177-0318|8976 Jackson Park,Honolulu,Hawaii|Chemical Engineer|11/5/2014|
 
 ## Make a copy table for cleaning
-### Create a new table for cleaning
-SQL code
+### Create a new table for cleaning by generate a DDL code
     
     CREATE TABLE club_member_info_cleaned (
 	full_name VARCHAR(50),
