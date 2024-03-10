@@ -32,7 +32,13 @@ SQL code
 	job_title VARCHAR(50),
 	membership_date VARCHAR(50)
 	);
-     
+
+### Copy all values from original table
+SQL code
+
+    INSERT INTO club_member_info_cleaned 
+    select * FROM club_member_info ;
+    
     
     
     
